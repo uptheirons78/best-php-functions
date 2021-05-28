@@ -84,3 +84,11 @@
   $arr_3 = array_merge($vowels_arr, explode(', ', $names_list));
   print_r($arr_3);
 
+  // 10. strpos(); [int]
+  echo '<h3>Function 10: strpos()</h3>';
+  $my_str = 'Oh God of Earth and Altar bow down and hear my cry.';
+  $find = 'Earth';
+  $find_two = 'cry';
+  echo strpos($my_str, $find) . '<br>'; // 10
+  echo strpos($my_str, $find_two) . '<br>'; // 47
+

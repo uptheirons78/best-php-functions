@@ -1,5 +1,7 @@
 # List of the most used PHP Functions
 
+### File top-10-php-functions.php
+
 1. count();
 2. is_array();
 3. substr();
@@ -9,3 +11,4 @@
 7. implode();
 8. strlen();
 9. array_merge();
+10. strpos();
