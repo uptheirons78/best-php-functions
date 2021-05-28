@@ -28,4 +28,24 @@
   echo $extract . '<br>';
   echo $another_extract . '<br>';
 
-?>
+  // 4. in_array(); [bool] {STRICT: true or false, default is false}
+  echo '<h3>Function 4: in_array()</h3>';
+  $some_values = array(1.2, 11, 'bazinga', 'sheldon', false);
+  // LOOSE SEARCH
+  if(in_array("1.2", $some_values)) {
+    echo 'Value found !' . '<br>';
+  } else {
+    echo 'Value not found' . '<br>';
+  }
+  // STRICT SEARCH
+  if(in_array("1.2", $some_values, true)) {
+    echo 'Value found !' . '<br>';
+  } else {
+    echo 'Value not found' . '<br>';
+  }
+  // STRICT SEARCH
+  if(in_array(1.2, $some_values, true)) {
+    echo 'Value found !' . '<br>';
+  } else {
+    echo 'Value not found' . '<br>';
+  }
