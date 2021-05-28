@@ -75,3 +75,7 @@
   echo '<h3>Function 7: implode()</h3>';
   echo implode(', ', $vowels_arr) . '<br>';
 
+  // 8. strlen(); [int]
+  echo '<h3>Function 8: strlen()</h3>';
+  echo strlen($html) . '<br>';
+

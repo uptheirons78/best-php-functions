@@ -7,3 +7,4 @@
 5. explode();
 6. str_replace();
 7. implode();
+8. strlen();
