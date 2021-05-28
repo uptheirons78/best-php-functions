@@ -49,3 +49,14 @@
   } else {
     echo 'Value not found' . '<br>';
   }
+
+  // 5. explode(); [array]
+  echo '<h3>Function 5: explode()</h3>';
+  $list = 'red, yellow, orange, green, blue, white, black';
+  $list_two = 'red|yellow|orange|green|blue|white|black';
+  $result = explode(', ', $list);
+  print_r($result);
+  echo '<br>';
+  $result_two = explode('|', $list_two);
+  print_r($result_two);
+  echo '<br>';

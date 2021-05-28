@@ -4,3 +4,4 @@
 2. is_array();
 3. substr();
 4. in_array();
+5. explode();
