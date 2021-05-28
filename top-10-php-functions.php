@@ -71,3 +71,7 @@
   $names_list = 'John, Jack, Jiuliet';
   echo str_replace($vowels_arr, '*', $names_list);
 
+  // 7. implode(); [str]
+  echo '<h3>Function 7: implode()</h3>';
+  echo implode(', ', $vowels_arr) . '<br>';
+

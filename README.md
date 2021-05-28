@@ -6,3 +6,4 @@
 4. in_array();
 5. explode();
 6. str_replace();
+7. implode();
