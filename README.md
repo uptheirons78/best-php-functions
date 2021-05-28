@@ -5,3 +5,4 @@
 3. substr();
 4. in_array();
 5. explode();
+6. str_replace();

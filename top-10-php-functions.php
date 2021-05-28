@@ -60,3 +60,14 @@
   $result_two = explode('|', $list_two);
   print_r($result_two);
   echo '<br>';
+
+  // 6. str_replace(); [str]
+  echo '<h3>Function 6: str_replace()</h3>';
+  $html = '<p>this is a html paragraph</p>';
+  $color = 'green';
+  echo str_replace('<p>', "<p style='color:{$color};'>", $html);
+  $vowels = 'a,e,i,o,u,A,E,I,O,U';
+  $vowels_arr = explode(',', $vowels);
+  $names_list = 'John, Jack, Jiuliet';
+  echo str_replace($vowels_arr, '*', $names_list);
+
