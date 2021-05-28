@@ -79,3 +79,8 @@
   echo '<h3>Function 8: strlen()</h3>';
   echo strlen($html) . '<br>';
 
+  // 9. array_merge(); [array]
+  echo '<h3>Function 9: array_merge()</h3>';
+  $arr_3 = array_merge($vowels_arr, explode(', ', $names_list));
+  print_r($arr_3);
+

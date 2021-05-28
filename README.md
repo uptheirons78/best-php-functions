@@ -8,3 +8,4 @@
 6. str_replace();
 7. implode();
 8. strlen();
+9. array_merge();
