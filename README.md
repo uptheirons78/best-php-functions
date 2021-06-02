@@ -12,3 +12,8 @@
 8. strlen();
 9. array_merge();
 10. strpos();
+
+### File top-20-php-functions.php
+
+11. preg_match();
+12. sprintf();
