@@ -17,3 +17,4 @@
 
 11. preg_match();
 12. sprintf();
+13. trim();

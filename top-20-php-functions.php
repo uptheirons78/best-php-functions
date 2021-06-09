@@ -25,4 +25,12 @@
   $formatted_string = 'There are %1$d funny %2$s sitting on a tree';
   echo sprintf($formatted_string, $number, $animal) . '<br>';
 
+  // 13. trim(); It returns string removing white spaces in the beginning and at the end of the string
+  // Attention: ltrim() remove whitespaces from the beginning
+  // Attention: rtrim() remove whitespaces from the end
+  echo '<h3>Function 13: trim()</h3>';
+  $hello_world = "   Hello World  ";
+  $trimmed = trim($hello_world);
+  echo $trimmed . "<br>";
+
 ?>
